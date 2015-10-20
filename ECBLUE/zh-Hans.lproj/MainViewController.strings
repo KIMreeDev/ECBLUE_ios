@@ -1,0 +1,36 @@
+
+/* Class = "IBUILabel"; text = "2014-12-15 12:30"; ObjectID = "3uf-1M-P3m"; */
+"3uf-1M-P3m.text" = "2014-12-15 12:30";
+
+/* Class = "IBUILabel"; text = "Health"; ObjectID = "FEJ-k0-Bnd"; */
+"FEJ-k0-Bnd.text" = "健康";
+
+/* Class = "IBUILabel"; text = "puffs"; ObjectID = "G92-Vv-Elp"; */
+"G92-Vv-Elp.text" = "口";
+
+/* Class = "IBUILabel"; text = "step"; ObjectID = "MuZ-R3-gCM"; */
+"MuZ-R3-gCM.text" = "步";
+
+/* Class = "IBUILabel"; text = "Setting"; ObjectID = "NUd-Yg-RZ1"; */
+"NUd-Yg-RZ1.text" = "设置";
+
+/* Class = "IBUILabel"; text = "Message"; ObjectID = "NVL-i2-F3A"; */
+"NVL-i2-F3A.text" = "消息";
+
+/* Class = "IBUILabel"; text = "smoking"; ObjectID = "Pwm-Dk-XGK"; */
+"Pwm-Dk-XGK.text" = "吸烟";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "QzV-Sk-FbK"; */
+"QzV-Sk-FbK.text" = "0";
+
+/* Class = "IBUILabel"; text = "Not Connected"; ObjectID = "Y9c-vf-pdZ"; */
+"Y9c-vf-pdZ.text" = "没有连接";
+
+/* Class = "IBUILabel"; text = "running"; ObjectID = "bUo-DS-q3D"; */
+"bUo-DS-q3D.text" = "跑步";
+
+/* Class = "IBUILabel"; text = "Aliax"; ObjectID = "fva-nj-eqk"; */
+"fva-nj-eqk.text" = "Aliax";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "z8s-pp-kby"; */
+"z8s-pp-kby.text" = "0";

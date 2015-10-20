@@ -1,0 +1,145 @@
+/* 
+  Localizable.strings
+  ECBLUE
+
+  Created by renchunyu on 15/1/2.
+  Copyright (c) 2015年 ecigarfan. All rights reserved.
+*/
+
+
+
+//各标题
+"Message"="Message";
+"Setting"="Setting";
+"Sport"="Sport";
+"Ecig"="Ecig";
+"Health"="Health";
+
+
+//个人信息
+"Nickname" = "Nickname";
+"Phone" = "Phone";
+"Sex" = "Sex";
+"Male" = "Male";
+"Female" = "Female";
+"Birthday" = "Birthday";
+"Height" = "Height";
+"Weight" = "Weight";
+"Personal Information" = "Personal Information";
+"Sure" = "Sure";
+"No Bluetooth Connection" = "No Bluetooth Connection";
+"Taking Pictures" = "Taking Pictures";
+"Photo Albums" = "Photo Albums";
+"Cancel" = "Cancel";
+
+//Sport
+"km" = "km";
+"cal" = "cal";
+
+//主界面
+"Princess" = "Princess";
+"Prince" = "Prince";
+"Bluetooth" = "Bluetooth";
+"Please turn on Bluetooth in Settings" = "Please turn on Bluetooth in Settings";
+"OK" = "OK";
+
+
+
+//Ecig
+"%.0f puffs" = "%.0f puffs";
+"0 puff" = "0 puff";
+
+//Config
+"Configuration" = "Configuration";
+"Completed" = "Completed";
+"Nicotine Level(1-50mg/ml)" = "Nicotine Level(1-50mg/ml)";
+"Puffs Limit(1-1000)" = "Puffs Limit(1-1000)";
+"The Goal Of Running" = "The Goal Of Running";
+"The Goal Of Calory" = "The Goal Of Calory";
+"Cigarettes Smoked Per Day" = "Cigarettes Smoked Per Day";
+"Currency Symbol" = "Currency Symbol";
+"Price Of Pack Of 20" = "Price Of Pack Of 20";
+"Price Of Smoke Oil(10ml)" = "Price Of Smoke Oil(10ml)";
+"Nicotine Level" = "Nicotine Level";
+"Non Smoker Since" = "Non Smoker Since";
+
+//Health
+"NICOTINE OUT OF BODY" = "NICOTINE OUT OF BODY";
+"BLOOD OXYGENATION" = "BLOOD OXYGENATION";
+"HEART REJUVENATION" = "HEART REJUVENATION";
+"TASTE&SMELL" = "TASTE&SMELL";
+"LUNG CAPACITY" = "LUNG CAPACITY";
+"STROKE RISK MITIGATION" = "STROKE RISK MITIGATION";
+"LUNG CANCER RISK MITIGATION" = "LUNG CANCER RISK MITIGATION";
+"OTHER CANCER RISK MITIGATION" = "OTHER CANCER RISK MITIGATION";
+"SINCE %@" = "SINCE %@";
+"Small sports knowledge:" = "Small sports knowledge:";
+
+"剧烈运动时，体内盐分随大量的汗液排出体外，饮水过多会使血液的渗透压降低，破坏体内水盐代谢平衡，影响人体正常生理功能，甚至还会发生肌肉痉挛现象。由于运动时，需要增加心跳、呼吸的频率来增加血液和氧气，以满足运动需要。而大量饮水会使胃部膨胀充盈，妨碍膈肌活动，影响呼吸;血液的循环流量增加，加重了心脏负担，不仅不利于运动，还会伤害心脏。此外，大量饮水会使胃酸浓度降低，影响食物消化。长期大量运动后饮水容易得胃病。" = "Strenuous exercise, the body salts with a lot of sweat eduction body outside, drinking too much will reduce the osmotic pressure of blood, destruction of water and salt metabolism balance inside body, affect human body normal physiological function and muscle cramps occur even. Due to the movement, the need to increase the heart rate, breathing frequency to increase blood and oxygen, to meet the needs of the movement. After drinking lots of water will make the stomach filling, hinder the diaphragmatic muscle activity, breathing; The circulation of the blood flow increase, aggravating heart burden, not only conducive to movement, also can damage the heart. In addition, drinking lots of water will make the stomach acid concentration is reduced, affect the digestion. After drinking a large amount for a long time easy to have stomach trouble.";
+"进餐后需要较多的血液流到胃肠道，帮助食物消化与养分吸收，如果这时参加运动就会造成血液流向四肢，妨碍胃肠的消化，时间一长就会导致疾病。体弱者进餐后血压还会降低，称为餐后低血压，外出活动容易跌倒。长期餐后运动容易得盲肠炎。饮酒后不可进行游泳等运动项目。" = "After eating need more blood flow to the gastrointestinal tract, help digestion and absorption of nutrients, if at this time to participate in sports can cause blood flow to the limbs, prevent gastrointestinal digestion, over time will lead to disease. Infirm after dinner will be lowered blood pressure, called postprandial hypotension, easy to fall out activities. Long after the meal movement easier appendicitis. Do not swim after drinking such as sports.";
+"由于运动的基本功能是通过呼吸从外界摄入大量新鲜氧气，以满足健康的需求，故运动前一定要选择好地点，以平坦开阔，空气新鲜的公园、河滩、体育场等处最佳。" = "Because of the movement is the basic function of intake from the outside world through breath fresh oxygen, to satisfy the needs of health, so the movement before must choose a good location, flat and open to the air fresh park, the beach, such as the stadium at best.";
+"运动不仅是身体的锻炼，也是心理的锻炼。当你生气、悲伤时，不要到运动场上去发泄。运动医学专家的解释是：人的情绪直接影响着身体的生理机能，而情绪的变化又产生于大脑深部，并扩散到全身，在心脏及其他器官上留下痕迹，这种痕迹将影响人体机能的健康。" = "Sport is not only the exercise of the body, but also mental exercise. When you angry, sad, don't vent to the stadium. Sports medicine experts explanation is: people directly affects the body's physiological function, and the change of mood and produces deep in the brain, and spread to the whole body, leave a mark on the heart and other organs, this mark will affect the health of human body function.";
+"选择最佳运动量的方法很多：例如指数评定法、心率评定法、库珀评定法、菲克斯评定法、疲劳评定法、简便评定法、阶段评定法等等。由于每一个人的实际情况千差万别，安静心率相差15—30%，甚至更多，所以选择最佳运动量应根据自己的年龄、性别、职业特点、体力状况、健康水平、体育基础、生活环境、目的任务等不同情况来决定。" = "A lot of methods to choose the best exercise: such as index evaluation method, evaluation method of heart rate, cooper assessment method, fisker assessment method, easy fatigue rating method, evaluation method, phase rating method and so on. Due to the actual situation of each person different, quiet heart rate by 15-30%, or more, so choose the best exercise should be based on the characteristics of their age, sex, occupation, physical status, health, sports foundation, different situations such as living environment, objective task to decide.";
+"整理活动，是指在体育锻炼后，所采用的一系列放松练习和运动后按摩等恢复手段，目的是消除疲劳，恢复体能，提高锻炼效果。整理活动可以使紧张的肌肉得到放松，在运动中，肌肉毛细血管大量开放，肌肉高度紧张。如果激烈运动后立即静止不动，肌肉内淤积的血液就不能及时流回心脏，肌肉僵硬，疲劳不易消除。相反，运动后做一些整理活动，使运动慢慢缓和下来，或通过按摩挤压肌肉和穴位，就可以使肌肉得到充分的放松和休息。" = "After finishing activities, refers to the physical exercise, adopted a series of recovery means such as massage relaxation exercise and after exercise, the purpose is to eliminate fatigue, restore physical strength, improve the effect of exercise. Organize activities can relax the tense muscles, in sports, muscle capillaries open in great quantities, muscle strain. If stationary immediately after strenuous exercise, muscle deposition in the blood can't timely flow back to the heart, muscle stiffness, fatigue is not easy to eliminate. After exercise, on the other hand, do some activities, make the movement slowly break down, or squeeze the muscles and acupuncture points through massage, can cause the muscle to fully relax and rest.";
+"运动员经常是每天都要训练，接近比赛时甚至一天训练两次，参加比赛也经常需要一天连续出赛两三次，包括预赛、准决赛、和决赛，例如田径和游泳，或是在短短数天中每天连续出赛，例如篮球，这时运动后的营养补充就变得非常重要，对于下次练习的成效或是比赛的结果有绝对的影响。对运动员而言，运动后的恢复不应该是顺其自然，而应该是主动积极的补充运动所消耗的能量和营养，为紧接而来的比赛或训练做好准备。" = "Athletes are training every day, often game near the end of the training twice a day, even in the competition also often need to play two or three times a day, including the preliminaries and semi-finals, and final, such as athletics and swimming, or play a day in just a few days, such as basketball, then after exercise supplements has become very important, for the next practice results have absolute influence or the result of the game. For athletes, recovery after exercise should not be let nature take its course, are active and should complement the energy dissipations of the movement and nutrition, or training to prepare for the match followed.";
+"运动后不能立即洗澡这样会导致心脏和脑部供血不足以致于头晕眼花浑身无力，还有由于身上的乳酸过多的积累使全身酸痛。" = "Don't bathe immediately after a workout that can lead to heart and brain blood supply shortage that dizzy restless, and because of the accumulation of lactic acid too much make sore and ache all over.";
+"运动后的营养补充着重于三方面：第一方面：补充因流汗而损失的水份和电解质  第二方面：补充运动中消耗的肝醣(glycogen) 第三方面：修复受伤的肌肉和组织" = "After exercise supplements focuses on three aspects: the first on the one hand, complement the loss of water and electrolyte with sweat The second aspect: the supplement of sports consumption of glycogen (glycogen) in 3 aspects: repair of injured muscle and organization";
+
+//设置
+"Smoke" = "Smoke";
+"Firmware" = "Firmware";
+"Not connected" = "Not connected";
+"Store" = "Store";
+"Clear data" = "Clear data";
+"The Local Data" = "The Local Data";
+"Hand Ring Data" = "Hand Ring Data";
+
+//省钱
+"今天才省了%.2f，来，给个糖果，继续加油哦" = "Only save %.2f,come here and take a candy. Keep going~";
+"今天省了%.2f，勉强达标了，中午吃饭给你加个鸡腿" = "Save %.2f, finally reach the line. Take a drumstick for your lunch~";
+"今天省了%.2f，恭喜你，你获得苍老师的飞吻" = "Save %.2f. Congratulations! A kiss from Aoi sola!";
+"这周省了%.2f，去吃顿大餐吧，联赏你的" = "Save %.2f. Treat yourself a big meal! An award from king~";
+"这周省了%.2f，本宫赏见衣服给你吧，自己埋单" = "Save %.2f. Buy yourself a dress. Yeap, it's on your treat.";
+"这周省了%.2f，你想去哪里玩，女王大人陪你去" = "Save %.2f. Where do you want to go? The queen will keep you company.";
+"这个月省了%.2f，凑合可以存点私房钱了" = "Save %.2f. Come on, you can save your own money.";
+"这个月省了%.2f，奖励自己一下，可以去约xx了" = "Save %.2f. Reward yourself and go to date xx.";
+"这个月省了%.2f，战绩不错，准备我的a计划" = "Save %.2f. Good record. Prepare your plan a.";
+
+//睡眠
+"今天睡眠%.2f小时，昨晚是不是做贼去了" = "Only sleep for %.2f hours, did you go to steal something?";
+"今天睡眠%.2f小时，做噩梦还是做春梦了" = "Only sleep for %.2f hours, did you have nightmare or illusion?";
+"今天睡眠%.2f小时，睡得真死，你属猪吗" = "Only sleep for %.2f hours. Such sound sleep! Were you a pig? ~~";
+"今天跑了%d步，完成目标的%.2f,看来你得跑步回家才能完成目标了" = "Only run . Complete %.2f of the target. I guess you'd better run home for the goal.";、
+
+"今天跑了%d步，完成目标的%.2f,坚持到底，胜利就在眼前" = "run , Complete %.2f of the target. Stick to the end, victory is at hand!~";
+
+"今天跑了%d步，完成目标的%.2f,你是要参加奥运的节奏吗" = "Only run , Complete %.2f of the target. Tell me, you are not going to Olympic!~~";
+"今天运动时间是%.2f，再不起来动一下，你就要成雕像了" = "Today your sport time is %.2f. You'd better move yourself, or you will become a statue.";
+"今天运动时间是%.2f，生命在于运动，你懂的" = "Today your sport time is %.2f, You know, life is a movement.";
+"今天运动时间是%.2f，太厉害了，你是不是得了多动症" = "Today your sport time is %.2f.Geeze, did you get ADHD? ";
+"今天燃烧了%.2f的卡路里，你确定要要减肥吗" = "Consume %.2f calories, Are you sure you still want to lose weight?";
+"今天燃烧了%.2f的卡路里，加油，为了s型的身材" = "Consume %.2f calories, Come on for your S stature.";
+"今天燃烧了%.2f的卡路里，加油，减肥是你永远的事业" = "Consume %.2f calories, Fighting for your slim body forever!";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

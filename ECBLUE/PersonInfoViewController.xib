@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonInfoViewController">
+            <connections>
+                <outlet property="headView" destination="RHe-XH-SIZ" id="b5f-Is-hls"/>
+                <outlet property="infoTableView" destination="cXq-UF-bYR" id="XJa-ic-a1J"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="RHe-XH-SIZ">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="RHe-XH-SIZ" secondAttribute="height" multiplier="1:1" id="REM-dM-Dzm"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="REM-dM-Dzm"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="REM-dM-Dzm"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="cXq-UF-bYR">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="qnD-Ra-PpA"/>
+                        <outlet property="delegate" destination="-1" id="jfD-gO-gAW"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cXq-UF-bYR" firstAttribute="top" secondItem="RHe-XH-SIZ" secondAttribute="bottom" constant="20" id="04M-dU-xRg"/>
+                <constraint firstItem="cXq-UF-bYR" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="41d-mO-qzJ"/>
+                <constraint firstItem="RHe-XH-SIZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="110" id="5Wb-b1-ngx"/>
+                <constraint firstItem="cXq-UF-bYR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9l2-LS-YtJ"/>
+                <constraint firstAttribute="trailing" secondItem="RHe-XH-SIZ" secondAttribute="trailing" constant="110" id="VS7-V3-w4J"/>
+                <constraint firstAttribute="bottom" secondItem="cXq-UF-bYR" secondAttribute="bottom" id="XcZ-Re-xbl"/>
+                <constraint firstItem="RHe-XH-SIZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="qwe-zF-PUm"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="RHe-XH-SIZ"/>
+                    <exclude reference="cXq-UF-bYR"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5Wb-b1-ngx"/>
+                    <exclude reference="VS7-V3-w4J"/>
+                    <exclude reference="qwe-zF-PUm"/>
+                    <exclude reference="04M-dU-xRg"/>
+                    <exclude reference="41d-mO-qzJ"/>
+                    <exclude reference="9l2-LS-YtJ"/>
+                    <exclude reference="XcZ-Re-xbl"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="RHe-XH-SIZ"/>
+                    <include reference="cXq-UF-bYR"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="5Wb-b1-ngx"/>
+                    <include reference="VS7-V3-w4J"/>
+                    <include reference="qwe-zF-PUm"/>
+                    <include reference="04M-dU-xRg"/>
+                    <include reference="41d-mO-qzJ"/>
+                    <include reference="9l2-LS-YtJ"/>
+                    <include reference="XcZ-Re-xbl"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-116" y="126"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgroundImage.png" width="1100" height="1100"/>
+    </resources>
+</document>

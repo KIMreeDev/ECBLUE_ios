@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>todayS</key>
+		<string>今天才省了%.2f，来，给个糖果，继续加油哦</string>
+		<key>todayM</key>
+		<string>今天省了%.2f，勉强达标了，中午吃饭给你加个鸡腿</string>
+		<key>todayL</key>
+		<string>今天省了%.2f，恭喜你，你获得苍老师的飞吻</string>
+		<key>weekS</key>
+		<string>这周省了%.2f，去吃顿大餐吧，联赏你的</string>
+		<key>weekM</key>
+		<string>这周省了%.2f，本宫赏见衣服给你吧，自己埋单</string>
+		<key>weekL</key>
+		<string>这周省了%.2f，你想去哪里玩，女王大人陪你去</string>
+		<key>monthS</key>
+		<string>这个月省了%.2f，凑合可以存点私房钱了</string>
+		<key>monthM</key>
+		<string>这个月省了%.2f，奖励自己一下，可以去约xx了</string>
+		<key>monthL</key>
+		<string>这个月省了%.2f，战绩不错，准备我的a计划</string>
+	</dict>
+	<dict>
+		<key>sleepS</key>
+		<string>今天睡眠%.2f小时，昨晚是不是做贼去了</string>
+		<key>sleepM</key>
+		<string>今天睡眠%.2f小时，做噩梦还是做春梦了</string>
+		<key>sleepL</key>
+		<string>今天睡眠%.2f小时，睡得真死，你属猪吗</string>
+		<key>runS</key>
+		<string>今天跑了%d步，完成目标的%.2f,看来你得跑步回家才能完成目标了</string>
+		<key>runM</key>
+		<string>今天跑了%d步，完成目标的%.2f,坚持到底，胜利就在眼前</string>
+		<key>runL</key>
+		<string>今天跑了%d步，完成目标的%.2f,你是要参加奥运的节奏吗</string>
+		<key>runtimeS</key>
+		<string>今天运动时间是%.2f，再不起来动一下，你就要成雕像了</string>
+		<key>runtimeM</key>
+		<string>今天运动时间是%.2f，生命在于运动，你懂的</string>
+		<key>runtimeL</key>
+		<string>今天运动时间是%.2f，太厉害了，你是不是得了多动症</string>
+		<key>calorieS</key>
+		<string>今天燃烧了%.2f的卡路里，你确定要要减肥吗</string>
+		<key>calorieM</key>
+		<string>今天燃烧了%.2f的卡路里，加油，为了s型的身材</string>
+		<key>calorieSL</key>
+		<string>今天燃烧了%.2f的卡路里，加油，减肥是你永远的事业</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,152 @@
+//
+//  EcbluePrefix.pch
+//  ECBLUE
+//
+//  Created by renchunyu on 14/11/20.
+//  Copyright (c) 2014年 ecigarfan. All rights reserved.
+//
+
+#ifndef ECBLUE_EcbluePrefix_pch
+#define ECBLUE_EcbluePrefix_pch
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "GGDiscover.h"
+#import "GGDataConversion.h"
+#import "JRHeader.h"
+#import "DateTimeHelper.h"
+#import "CoreDataDAO.h"
+#import "MBProgressHUD.h"
+#import "EcblueDAO.h"
+#endif
+
+//设备信息
+#define IPHONE4S (([[UIScreen mainScreen] bounds].size.height-480)?NO:YES)   //320x480
+#define IPHONE5S (([[UIScreen mainScreen] bounds].size.height-568)?NO:YES)   //320x568
+#define IPHONE6 (([[UIScreen mainScreen] bounds].size.height-667)?NO:YES)    //375x667
+#define IPHONE6PLUS (([[UIScreen mainScreen] bounds].size.height-736)?NO:YES)//414x736
+#define IOS8 [[[UIDevice currentDevice]systemVersion] floatValue] >= 8.0
+#define kScreen_Height   ([UIScreen mainScreen].bounds.size.height)
+#define kScreen_Width    ([UIScreen mainScreen].bounds.size.width)
+
+//文件路径
+#define F_PATH_IN_DOCUMENTS(path) [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"Documents/%@",path]]
+#define F_PATH_IN_BUNDLE(name,type) [[NSBundle mainBundle] pathForResource:name ofType:type]
+#define S_USER_DEFAULTS [NSUserDefaults standardUserDefaults]
+#define S_ALL_SMOKING [[LocalStroge sharedInstance].allInfo objectForKey:F_ALL_SMOKING]
+
+//API
+#define API_MEMORY_STATUS_CMD_HEADER @"4700 91" //内存状态记录
+#define API_STEP_DATA_CMD_HEADER @"4701 92"     //计步数据记录
+#define API_SLEEP_DATA_CMD_HEADER @"4702 93"    //睡眠数据记录
+#define API_SMOKE_DATA_CMD_HEADER @"4703 94"    //吸烟数据记录
+
+//CMD
+#define CMD_TIME_HEADER @"41"   //日期时间
+#define CMD_PARA_HEADER @"42"   //个人参数
+#define CMD_SMOKE_VOLTAGE_HEADER @"43"  //吸烟电压
+#define CMD_SMOKE_CNT_HEADER @"44"  //吸烟口数限制
+#define CMD_SMOKE_TIME_HEADER @"45"  //吸烟时间限制
+#define CMD_CLR_MEMORY @"46" //清除记录
+#define CMD_DATA_REQUEST @"47"  //数据请求
+#define CMD_SMOKE_CHANGE_HEADER @"48"   //更换烟弹
+#define CMD_SMOKE_USAGE_TIME @"97"  //烟弹使用时间
+#define CMD_END_IDENTI @"96"    //返回验证标志
+
+//通知
+#define NOTIFICATION_NOT_CONNECTED @"not_connected"
+#define NOTIFICATION_CHARACTER_DISCOVER @"character_discover"
+#define NOTIFICATION_STILL_SMOKING @"still_smoking_changed"
+#define NOTIFICATION_SCHEDULE_ADD @"schedule_add"
+#define NOTIFICATION_POWER_SHOW @"power_show"
+#define NOTIFICATION_LIGHT_SHOW @"light_show"
+#define NOTIFICATION_CLEAR_SAVE @"clear_save"
+#define NOTIFICATION_UPDATE_RUN @"update_run"   //更新跑步
+#define NOTIFICATION_UPDATE_ECI @"update_eci"   //更新电子烟
+
+//电子烟统计
+#define NOTIFICATION_HEADIMAGE_CHANGE @"headimage_change"//设置头像
+#define NOTIFICATION_TIMEPOINT_TOUCH @"notification_timepoint_touch"//改变日期时触发
+//昵称
+#define NOTIFICATION_NICK_CHANGE @"nick_change" //昵称改变
+
+//颜色
+#define F_COLOR_RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define F_COLOR_RGB(r,g,b) F_COLOR_RGBA(r,g,b,1.0)
+#define COLOR_DARK_GRAY F_COLOR_RGB(47,48,48)//深灰
+#define COLOR_MIDDLE_GRAY F_COLOR_RGB(105,105,105)//中灰
+#define COLOR_LIGHT_GRAY F_COLOR_RGB(200,203,204)//浅灰
+#define COLOR_LINE_GRAY F_COLOR_RGB(200,200,200)//灰线
+#define COLOR_BACKGROUND F_COLOR_RGB(236,240,243)//背景色
+#define COLOR_SEPERATER F_COLOR_RGB(220,223,224)//分割线颜色
+#define COLOR_LIGHT_BLUE F_COLOR_RGB(17,127,239)//浅蓝色
+#define COLOR_BLUE_NEW F_COLOR_RGB(0,153,204)//蓝
+#define COLOR_GRAY_BLUE F_COLOR_RGB(240,240,250)//灰蓝
+#define COLOR_GREEN_NEW F_COLOR_RGB(153,204,51)//绿
+#define COLOR_ORANGE_NEW F_COLOR_RGB(255,153,51)//橙
+#define COLOR_RED_NEW F_COLOR_RGB(255,51,51)//红
+#define COLOR_WHITE_NEW F_COLOR_RGB(255,255,255)//白
+#define COLOR_THEME F_COLOR_RGB(72,201,223)//主题色
+#define COLOR_THEME_ONE F_COLOR_RGB(44,154,207)//主题色1
+#define COLOR_YELLOW_NEW F_COLOR_RGB(255,186,10)//黄
+#define COLOR_TABITEM_TITLE_NORMAL F_COLOR_RGB(119,119,119)//tab item normal title color
+#define COLOR_TABITEM_TITLE_SELECTED F_COLOR_RGB(41,162,232)//tab item normal title color
+
+//属性列表存
+//个人信息
+#define F_PERSON_INFO @"person_info"
+#define F_PERSON_NICK @"person_nick"    //昵称
+#define F_PERSON_PHONE @"person_phone"  //手机
+#define F_PERSON_SEX @"person_sex"      //性别
+#define F_PERSON_BIRTHDAY @"person_birthday"    //生日
+#define F_PERSON_Height @"person_height"        //身高
+#define F_PERSON_WEIGHT @"person_weight"        //体重
+
+#define KEY_LIMI   NSLocalizedString(@"cm", @"厘米")//
+#define KEY_YINCHI NSLocalizedString(@"in", @"英寸")//
+#define KEY_GONJIN NSLocalizedString(@"kg", @"公斤")//
+#define KEY_BANG NSLocalizedString(@"lb", @"傍")
+
+//宏定义
+#define K_END   @"end"
+#define PASSWORD @"password"
+#define ALLINFO @"allinfo"
+#define U_STORED_DEVICES @"stored_devices"
+#define F_OPENED_SECOND @"open_second"   //是否打开第二次
+#define F_PASSWORD @"password"      //密码
+#define F_BLUE_UUID @"blue_uuid"    //uuid
+#define F_UPDATE_TIME @"update_time" //更新时间
+
+//smokerProfile
+//Ecig
+#define F_NICOTINE_VALUE @"nicotine_value"  //尼古丁值
+#define F_PUFFS_LIMIT @"puffs_limit"        //口数限制
+//Sport
+#define F_GOAL_RUNNING @"goal_running"      //跑步目标
+#define F_GOAL_CALORIES @"goal_calories"    //卡路里目标
+//Message
+#define F_CIGARETTES_DAY @"cigarettes_day"  //每天吸多少烟
+#define F_PRICE_PACK @"price_pack"        //每包单价
+#define F_PRICE_ML @"price_of_ml"   //10ml烟油的售价
+#define F_CURRENCY @"currency"      //货币符号
+#define F_NICOTINE_RANGE @"nicotine_range" //尼古丁范围
+//Health
+#define F_NON_SMOKING @"non_smoking" //戒烟的起始时间
+
+//My Mistic
+#define F_SMOKE_VERSION @"smoke_version"    //软件版本
+#define F_FIRMWARE_VERSION @"firmware_version"  //固件版本
+#define NOT_CONNECTED_IDENTI  NSLocalizedString(@"Not connected", nil) //没连接
+
+
+//info
+#define STORE_URL @"appstore_url"  //在appstore的地址
+#define F_SAVE_MONEY @"save_money"  //每天省的烟钱
+
+
+#endif
